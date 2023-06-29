@@ -10,4 +10,4 @@ You can also run uvicorn src.main:app --reload to run in developer mode, where a
 You can see the documentation on the api by visiting http://127.0.0.1:8000/redoc or http://127.0.0.1:8000/docs
 To see the result, connect it up to a front end, or hit the api from curl or postman. The request will include the following:
 request body {'query': "Who are some of the people mentioned in the video?"}
-query parameter to be passed is video_id=<youtube_video_id>
+query parameter to be passed is video_id=<youtube_video_id> 
